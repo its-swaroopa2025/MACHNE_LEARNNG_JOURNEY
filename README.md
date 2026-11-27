@@ -1,40 +1,63 @@
-Machine Learning Journey
-Documenting my AI/ML learning journey --- Python, NumPy, Pandas, Data
-Visualization, and Machine Learning.
-Current Progress
-NumPy
+# 🚀 Machine Learning Journey
+
+Documenting my AI/ML learning journey — Python, NumPy, Pandas, Data Visualization, and Machine Learning.
+
+---
+
+## 📚 Current Progress
+
+### 1. NumPy
 - Importing NumPy
 - Creating arrays
-- Generating sequences with np.arange()
+- Generating sequences using `np.arange()`
 - Generating random integer and uniform values
 - Finding array length, minimum, and maximum values
-Pandas
-- Creating DataFrames from NumPy arrays, lists, and dictionaries
-- Reading CSV files with pd.read_csv()
-- Inspecting DataFrames using head(), shape, columns, index,
-  dtypes, info(), and describe()
+
+### 2. Pandas
+- Creating DataFrames using NumPy arrays, lists, and dictionaries
+- Reading CSV files using `pd.read_csv()`
+- Exploring DataFrames using:
+  - `head()`
+  - `shape`
+  - `columns`
+  - `index`
+  - `dtypes`
+  - `info()`
+  - `describe()`
 - Selecting Series and multiple columns
 - Adding columns and assigning Series
-- Performing calculations such as sum(), mean(), count(), and
-  std()
-- Counting values with value_counts()
+- Performing calculations using:
+  - `sum()`
+  - `mean()`
+  - `count()`
+  - `std()`
+- Counting values using `value_counts()`
 - Sorting rows and indexes
 - Setting indexes and renaming columns
-Notebook
-- BASICS_of_Pandas_Numpy.ipynb --- practice with basic NumPy
-  operations and Pandas DataFrames and Series.
-Tools and Libraries
+
+---
+
+## 🛠️ Tools & Technologies
+
 - Python
 - Jupyter Notebook
 - NumPy
 - Pandas
-Dataset Note
-The notebook reads a file named StudentsPerformance.csv using a
-relative path. Place that CSV file in the same directory as the notebook
-before running the CSV-related cells.
-.
-Goal
-Build a strong foundation in data handling and analysis before moving on
-to Machine Learning.
-This repository records my own learning and practice. I will update it
-as I progress.
+
+---
+
+## 📂 Dataset
+
+The notebook uses a dataset named `StudentsPerformance.csv`.
+
+Place the CSV file in the same directory as the notebook before running the CSV-related cells.
+
+---
+
+## 🎯 Learning Goal
+
+Build a strong foundation in data handling and analysis before progressing towards Machine Learning and Deep Learning.
+
+---
+
+⭐ This repository documents my learning, practice, and progress in the field of AI/ML. I will keep updating it as I learn new concepts and build projects.
